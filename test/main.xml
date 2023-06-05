@@ -1,0 +1,155 @@
+<test>
+    <test-case id="Уточнение пароль - 1">
+       <q>/start</q>
+       <a state="/Start"/>
+       <q>Как сменить пароль приложения?</q>
+       <a state="/ClarifyQuestion"/>
+    </test-case>
+
+    <test-case id="Уточнение пароль - 2">
+       <q>/start</q>
+       <a state="/Start"/>
+       <q>Здравствуйте, скажите как восстановить пароль в приложении банка?</q>
+       <a state="/ClarifyQuestion"/>
+    </test-case>
+
+    <test-case id="Уточнение пароль - 3">
+       <q>/start</q>
+       <a state="/Start"/>
+       <q>Мне удалось установить приложение на новый телефон Для  Активации нужен код и пароль а я его не помню подскажите где его найти </q>
+       <a state="/ClarifyQuestion"/>
+    </test-case>
+
+    <test-case id="Уточнение пароль - 4">
+       <q>/start</q>
+       <a state="/Start"/>
+       <q>Подскажите пожалуйста как поменять на карте пароль если не помништ</q>
+       <a state="/ClarifyQuestion"/>
+    </test-case>
+
+    <test-case id="Уточнение пароль - 5">
+       <q>/start</q>
+       <a state="/Start"/>
+       <q>Наталья, я говорю про приложение банка Открытие для Android. В этом приложении  на странице входа нет кнопки &quot;Сбросить пароль&quot;. А Вы какое приложение имеете ввиду?</q>
+       <a state="/ClarifyQuestion"/>
+    </test-case>
+
+    <test-case id="Уточнение пароль - 6">
+       <q>/start</q>
+       <a state="/Start"/>
+       <q>Изменить пароль </q>
+       <a state="/ClarifyQuestion"/>
+    </test-case>
+
+    <test-case id="Уточнение пароль - 7">
+       <q>/start</q>
+       <a state="/Start"/>
+       <q>Здравствуйте,  подскажите,  пожалуйста,  как попасть в интернет-банк? Как я могу получить логмн и пароль?</q>
+       <a state="/ClarifyQuestion"/>
+    </test-case>
+
+    <test-case id="Уточнение пин-кода - 1">
+       <q>/start</q>
+       <a state="/Start"/>
+       <q>2 вопроса- приложение работает некорректно, информацию о задолженности и пин коде пишет, что что-то пошло не так и произошла ошибка! Помогите исправить ошибки</q>
+       <a state="/ClarifyQuestion"/>
+    </test-case>
+
+    <test-case id="Уточнение пин-кода - 2">
+       <q>/start</q>
+       <a state="/Start"/>
+       <q>Добрый день не могу сменить пин-код выдает ошибку не удалось отправить SMS</q>
+       <a state="/ClarifyQuestion"/>
+    </test-case>
+
+    <test-case id="Уточнение пин-кода - 3">
+       <q>/start</q>
+       <a state="/Start"/>
+       <q>Забыл пинкод </q>
+       <a state="/ClarifyQuestion"/>
+    </test-case>
+
+    <test-case id="Уточнение пин-кода - 4">
+       <q>/start</q>
+       <a state="/Start"/>
+       <q>Здравствуйте. У меня вопросы по моей кредитной карте: в личном кабинете срок действия карты до 08.24, а на самой карте 08.22.!? И ещё вопрос по ПИН-кода: вчера в магазине три раза не сработал код, карта заблокировалась. В личном кабинете не могу сменить ПИН-код, пишут- невозможно отправить SMS, попробуйте позднее. Спасибо.</q>
+       <a state="/ClarifyQuestion"/>
+    </test-case>
+
+    <test-case id="Уточнение пин-кода - 5">
+       <q>/start</q>
+       <a state="/Start"/>
+       <q>Как разблокировать карту и поменять ПИН</q>
+       <a state="/ClarifyQuestion"/>
+    </test-case>
+
+    <test-case id="Уточнение пин-кода - 6">
+       <q>/start</q>
+       <a state="/Start"/>
+       <q>узнать пин код </q>
+       <a state="/ClarifyQuestion"/>
+    </test-case>
+
+    <test-case id="Уточнение пин-кода - 7">
+       <q>/start</q>
+       <a state="/Start"/>
+       <q>Сменить pin-cod для моб. приложения</q>
+       <a state="/ClarifyQuestion"/>
+    </test-case>
+
+    <test-case id="Уточнение пин-кода - 8">
+       <q>/start</q>
+       <a state="/Start"/>
+       <q>Забыла PIN, как востановить?</q>
+       <a state="/ClarifyQuestion"/>
+    </test-case>
+
+    <test-case id="Уточнение пин-кода - 9">
+       <q>/start</q>
+       <a state="/Start"/>
+       <q>Здравствуйте )подскажите как можно узнать свой куар  код для счёта моего ?</q>
+       <a state="/ClarifyQuestion"/>
+    </test-case>
+
+    <test-case id="Уточнение пин-кода - 10">
+       <q>/start</q>
+       <a state="/Start"/>
+       <q>Сменить PIN</q>
+       <a state="/ClarifyQuestion"/>
+    </test-case>
+
+    <test-case id="Уточнение пин-кода - 11">
+       <q>/start</q>
+       <a state="/Start"/>
+       <q>Здраствуйте у меня картый пин-кот забиль можите памоч</q>
+       <a state="/ClarifyQuestion"/>
+    </test-case>
+
+    <test-case id="Уточнение пин-кода - 12">
+       <q>/start</q>
+       <a state="/Start"/>
+       <q>Поменять код достапа</q>
+       <a state="/ClarifyQuestion"/>
+    </test-case>
+
+    <test-case id="Переход для смены пароля">
+       <q>/start</q>
+       <a state="/Start"/>
+       <q>Как сменить код доступа?</q>
+       <a state="/ClarifyQuestion"/>
+       <q>1</q>
+       <a state="/ChangePassword"/>
+       <a state="/ChangePassword"/>
+    </test-case>
+
+    <test-case id="Переход для смены пин-кода">
+       <q>/start</q>
+       <a state="/Start"/>
+       <q>Как сменить код доступа?</q>
+       <a state="/ClarifyQuestion"/>
+       <q>2</q>
+       <a state="/ChangePIN"/>
+       <a state="/ChangePIN"/>
+    </test-case>
+
+</test>
